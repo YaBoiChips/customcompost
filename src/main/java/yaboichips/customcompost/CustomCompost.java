@@ -1,6 +1,6 @@
 package yaboichips.customcompost;
 
-import net.minecraft.util.ResourceLocation;
+import net.minecraft.resources.ResourceLocation;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.fml.ModLoadingContext;
@@ -12,7 +12,7 @@ import net.minecraftforge.registries.ForgeRegistries;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
-import static net.minecraft.block.ComposterBlock.COMPOSTABLES;
+import static net.minecraft.world.level.block.ComposterBlock.COMPOSTABLES;
 import static yaboichips.customcompost.CustomCompost.MOD_ID;
 
 @Mod(MOD_ID)
