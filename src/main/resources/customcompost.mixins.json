@@ -1,0 +1,17 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "yaboichips.customcompost.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "refmap": "customcompost.refmap.json",
+  "mixins": [
+    "ComposterBlockInvMixin",
+    "ComposterBlockInvMixin$ChangedAccessor",
+    "ComposterBlockMixin"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
